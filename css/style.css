@@ -221,8 +221,8 @@ iframe {
 .content-4 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 4.5rem 38rem 38rem 38rem;
-      grid-template-columns: 4.5rem 38rem 38rem 38rem;
+  -ms-grid-columns: 4rem 38rem 38rem 38rem;
+      grid-template-columns: 4rem 38rem 38rem 38rem;
   -ms-grid-rows: 5rem 17rem;
       grid-template-rows: 5rem 17rem;
   width: 40rem;
@@ -272,6 +272,10 @@ iframe {
 
 #links {
   padding-left: 5rem;
+  text-decoration: underline;
+}
+
+#links-2 {
   text-decoration: underline;
 }
 
